@@ -3,7 +3,6 @@ body {
 }
 
 
-
 /*Heading Section*/
 #heading {
   text-align: center;
@@ -32,7 +31,65 @@ body {
   font-weight: 200;
   width: 35%;
   margin: auto;
-  color: rgb(250, 250, 250); /*fallback color*/
+  color: rgb(163, 165, 174); /*fallback color*/
   color: hsl(229, 6%, 66%);
 
+}
+
+
+/*Feature Section*/
+h3 {
+  color: rgb(76, 78, 97); /*fallback color*/
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+  color: rgb(163, 165, 174); /*fallback color*/
+  color: hsl(229, 6%, 66%);
+}
+.features {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat (4, 400px);
+  grid-template-columns: repeat (3, 400px);
+  grid-column-gap: 30px;
+
+}
+.feauture-card{
+  width: 350px;
+  height: 250px;
+  border-top: thick solid;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px 5px rgba(76, 78, 97, 0.1);
+  padding: 20px;
+  margin: 20px;
+
+}
+.team-builder {
+  border-top-color: rgb(234, 83, 83); /*fallback color*/
+  border-top-color: hsl(0, 78%, 62%);
+  grid-row: 1 / 3;
+  grid-column: 2 / 3;
+}
+
+.supervisor {
+
+  border-top-color: rgb(69, 211, 211); /*fallback color*/
+  border-top-color: hsl(180, 62%, 55%);
+  grid-row: 2 / 4;
+  grid-column: 1 / 2;
+}
+
+.calculator {
+  border-top-color: rgb(84, 158, 242); /*fallback color*/
+  border-top-color: hsl(212, 86%, 64%);
+  grid-row: 2 / 4;
+  grid-column: 3 / 4;
+}
+
+.karma {
+  border-top-color: rgb(252, 175, 74); /*fallback color*/
+  border-top-color: hsl(34, 97%, 64%);
+  grid-row: 3 / 5;
+  grid-column: 2 / 3;
 }
