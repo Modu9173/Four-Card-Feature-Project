@@ -15,7 +15,6 @@ body {
   color: hsl(234, 12%, 34%);
   font-weight: 200;
   margin-bottom: 0;
-
 }
 
 .sub-heading {
@@ -24,8 +23,6 @@ body {
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 15px;
-
-
 }
 
 .heading-description {
@@ -34,7 +31,6 @@ body {
   margin: auto;
   color: rgb(163, 165, 174); /*fallback color*/
   color: hsl(229, 6%, 66%);
-
 }
 
 
@@ -48,23 +44,24 @@ p {
   color: rgb(163, 165, 174); /*fallback color*/
   color: hsl(229, 6%, 66%);
 }
+
 .features {
   display: grid;
   justify-content: center;
   grid-template-rows: repeat (4, 400px);
   grid-template-columns: repeat (3, 400px);
-
 }
+
 .feauture-card{
   width: 350px;
-  height: 250px;
+  height: 200px;
   border-top: thick solid;
   border-radius: 6px;
   box-shadow: 0 5px 5px 5px rgba(76, 78, 97, 0.1);
   padding: 20px;
   margin: 20px;
-
 }
+
 .team-builder {
   border-top-color: rgb(234, 83, 83); /*fallback color*/
   border-top-color: hsl(0, 78%, 62%);
@@ -73,7 +70,6 @@ p {
 }
 
 .supervisor {
-
   border-top-color: rgb(69, 211, 211); /*fallback color*/
   border-top-color: hsl(180, 62%, 55%);
   grid-row: 2 / 4;
