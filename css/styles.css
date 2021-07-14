@@ -1,16 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
+  font-size: 16px;
 }
-
-.attribution { 
-  font-size: 11px; 
-  text-align: center; 
-}
-
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
-}
-
 
 /*Heading Section*/
 #heading {
@@ -36,11 +27,12 @@ body {
 
 .heading-description {
   font-weight: 200;
-  width: 35%;
+  width: 550px;
   margin: auto;
   color: rgb(163, 165, 174); /*fallback color*/
   color: hsl(229, 6%, 66%);
 }
+
 
 
 /*Feature Section*/
@@ -78,7 +70,7 @@ p {
 
 img {
   position: absolute;
-  right: 20px;
+  right: 30px;
 }
 
 .team-builder {
@@ -102,9 +94,34 @@ img {
   grid-column: 3 / 4;
 }
 
+
 .karma {
   border-top-color: rgb(252, 175, 74); /*fallback color*/
   border-top-color: hsl(34, 97%, 64%);
   grid-row: 3 / 5;
   grid-column: 2 / 3;
+}
+
+/*footer*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*mobile*/
+@media (max-width: 1278px) {
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading-description {
+    text-align: center;
+    width: 330px;
 }
