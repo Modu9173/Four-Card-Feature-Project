@@ -12,12 +12,12 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
+
 ## Overview
-Create a four-card feature section using HTML and CSS
+Create a feature section for a Technology Company that highlights the benefits they provide to clients.
 
 ### The challenge
 
@@ -27,66 +27,68 @@ Users should be able to:
 
 ### Screenshot
 
-![](/Card-screenshot.png)
+![](./Card-screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Check out my solution](https://your-solution-url.com)
+- Solution URL: [Check out my solution](https://www.frontendmentor.io/solutions/four-card-feature-section-using-css-grid-and-flexbox-p-rGH20qL)
 - Live Site URL: [Check out my live site](https://modu9173.github.io/Four-Card-Feature-Project/)
 
-## My process
-
 ### Built with
-- Flexbox
+- CSS custom properties
 - CSS Grid
 
 
+## My process
+Worked on designing the heading section first, by using basic CSS properties
+Group the code in one class after realizing it might be repetitive i.e coding the card features section
+Then designed the features section using CSS Grid.
+After much difficulties of attempting to code CSS Grid in media queries, I opted for Flexbox which allowed the card to appear in column.
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Finally understood how to use positioning (relative/absolute), CSS Grid and Flexbox.
 
-To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.features {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat (4, 400px);
+  grid-template-columns: repeat (3, 400px);
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+.team-builder {
+  grid-row: 1 / 3;
+  grid-column: 2 / 3;
 }
+
+media (max-width: 1278px) {
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Continue to practice using CSS Grid and Flexbox
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Modupe Ademola](https://www.your-site.com)
+- Website - [Modupe](https://github.com/Modu9173)
 - Frontend Mentor - [@Modu9173](https://www.frontendmentor.io/profile/Modu9173)
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+## Acknowledgments
+Thanks to another user of Frontend mentor that led me to learning CSS Grid, Flexbox and media queries. Thank you!
+
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
