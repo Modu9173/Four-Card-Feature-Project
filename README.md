@@ -90,5 +90,3 @@ Continue to practice using CSS Grid and Flexbox
 ## Acknowledgments
 Thanks to another user of Frontend mentor that led me to learning CSS Grid, Flexbox and media queries. Thank you!
 
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
