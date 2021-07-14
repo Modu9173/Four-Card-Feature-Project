@@ -68,6 +68,8 @@ p {
   padding: 20px;
   margin: 20px;
   position: relative;
+  background-color: rgb(255, 255, 255); /*fallback color*/
+  background-color: hsl(0, 0%, 100%);
 }
 
 img {
