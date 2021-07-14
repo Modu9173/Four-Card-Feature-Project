@@ -47,11 +47,15 @@ body {
 h3 {
   color: rgb(76, 78, 97); /*fallback color*/
   color: hsl(234, 12%, 34%);
+  margin-top: 0;
+  margin-bottom: 7px;
 }
 
 p {
   color: rgb(163, 165, 174); /*fallback color*/
   color: hsl(229, 6%, 66%);
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 .features {
