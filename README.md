@@ -2,22 +2,6 @@
 
 This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-
-## Overview
-Create a feature section for a Technology Company that highlights the benefits they provide to clients.
 
 ### The challenge
 
@@ -39,12 +23,6 @@ Users should be able to:
 - CSS custom properties
 - CSS Grid
 
-
-## My process
-Worked on designing the heading section first, by using basic CSS properties
-Group the code in one class after realizing it might be repetitive i.e coding the card features section
-Then designed the features section using CSS Grid.
-After much difficulties of attempting to code CSS Grid in media queries, I opted for Flexbox which allowed the card to appear in column.
 
 ### What I learned
 
@@ -76,6 +54,7 @@ media (max-width: 1278px) {
 
 ### Continued development
 
+After much difficulties of attempting to code CSS Grid in media queries, I opted for Flexbox which allowed the card to appear in column. 
 Continue to practice using CSS Grid and Flexbox
 
 
