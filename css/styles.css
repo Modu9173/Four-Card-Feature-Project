@@ -12,14 +12,14 @@ body {
   margin-bottom: 3%;
 }
 
-.main-heading {
+.header-title {
   color: rgb(76, 78, 97); /*fallback color*/
   color: hsl(234, 12%, 34%);
   font-weight: 200;
   margin-bottom: 0;
 }
 
-.sub-heading {
+.sub-title {
   color: rgb(76, 78, 97); /*fallback color*/
   color: hsl(234, 12%, 34%);
   font-weight: 600;
