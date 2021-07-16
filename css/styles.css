@@ -6,7 +6,7 @@ body {
 }
 
 /*Heading Section*/
-#heading {
+#header {
   text-align: center;
   margin-top: 3%;
   margin-bottom: 3%;
@@ -45,14 +45,14 @@ h3 {
   margin-bottom: 7px;
 }
 
-p {
+.feature-description {
   color: rgb(163, 165, 174); /*fallback color*/
   color: hsl(229, 6%, 66%);
   margin-top: 0;
   margin-bottom: 40px;
 }
 
-.features {
+.main {
   display: grid;
   justify-content: center;
   grid-template-rows: repeat (4, 400px);
@@ -108,8 +108,8 @@ img {
 
 /*footer*/
 .attribution {
-  font-size: 11px;
   text-align: center;
+  font-size: 11px;
   margin-top: 50px;
 }
 
@@ -117,9 +117,20 @@ img {
   color: hsl(228, 45%, 44%);
 }
 
+
+
 /*mobile*/
-@media (max-width: 1278px) {
-  .features {
+@media (max-width: 1270px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+  }
+}
+
+@media (max-width: 889px) {
+  .main {
     display: flex;
     flex-direction: column;
     align-items: center;
